@@ -8,12 +8,15 @@
 * **3-Qubit Bit-Flip Code:** Implemented syndrome measurement and Toffoli-based recovery for stochastic X-axis noise.
 
 ## Quantum Simulation & Chemistry
-* **Variational Quantum Eigensolver (VQE):** Developed a parametrized ansatz to estimate the ground state energy of the Hydrogen molecule ($H_2$).
+* **Variational Quantum Eigensolver (VQE):** Developed a parametrized ansatz to estimate the ground state energy of the Hydrogen molecule ($H_{2}$).
 * **Molecular Hamiltonian Mapping:** Simulated energy landscape convergence using stochastic gradient descent to identify thermodynamic equilibrium.
+
+## Advanced Quantum Algorithms
+* **Quantum Phase Estimation (QPE):** Developed a precision eigenvalue discovery protocol using an Inverse Quantum Fourier Transform (IQFT).
 
 ## Advanced QML & Optimization
 * **Quantum GAN:** Orchestrated a generative adversarial competition between circuits for synthetic state generation and Nash Equilibrium discovery.
-* **Adaptive Optimization:** Integrated **ADAM** and **Momentum-based** second-order stochastic gradient descent to stabilize training on noisy NISQ simulators.
+* **Adaptive Optimization:** Integrated ADAM and Momentum-based second-order stochastic gradient descent to stabilize training on noisy NISQ simulators.
 * **Autonomous Clustering:** Built an unsupervised system to group data points using quantum similarity thresholds and Kernel Estimation.
 * **Quantum Variational Classifier:** Developed a North/South pole classification boundary in Hilbert Space.
 
