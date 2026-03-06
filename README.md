@@ -7,6 +7,10 @@
 * **3-Qubit Phase-Flip Code:** Utilized Hadamard Basis Transformation to protect against Z-axis decoherence via X-basis mapping.
 * **3-Qubit Bit-Flip Code:** Implemented syndrome measurement and Toffoli-based recovery for stochastic X-axis noise.
 
+## Quantum Simulation & Chemistry
+* **Variational Quantum Eigensolver (VQE):** Developed a parametrized ansatz to estimate the ground state energy of the Hydrogen molecule ($H_2$).
+* **Molecular Hamiltonian Mapping:** Simulated energy landscape convergence using stochastic gradient descent to identify thermodynamic equilibrium.
+
 ## Advanced QML & Optimization
 * **Quantum GAN:** Orchestrated a generative adversarial competition between circuits for synthetic state generation and Nash Equilibrium discovery.
 * **Adaptive Optimization:** Integrated **ADAM** and **Momentum-based** second-order stochastic gradient descent to stabilize training on noisy NISQ simulators.
@@ -25,4 +29,4 @@
 * **Goal:** Bachelor's in CS+Physics (UIUC) -> PhD in Quantum Science & Engineering (UChicago) -> Argonne National Laboratory.
 
 ## Research Objectives
-Building the foundation for fault-tolerant QAI and noise-resilient neural networks in high-dimensional state spaces.
+Building the foundation for fault-tolerant QAI, noise-resilient neural networks, and molecular energy simulations in high-dimensional state spaces.
