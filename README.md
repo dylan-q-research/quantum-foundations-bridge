@@ -2,24 +2,27 @@
 **Researcher:** Dylan Cabrera Giler  
 **Focus:** Quantum Information Science, QAI/QML, and Physics-integrated Computing.
 
+## Fault-Tolerant Architecture & QEC
+* **Shor 9-Qubit Code:** Developed a full concatenated universal error correction protocol capable of mitigating X, Y, and Z errors simultaneously.
+* **3-Qubit Phase-Flip Code:** Utilized Hadamard Basis Transformation to protect against Z-axis decoherence via X-basis mapping.
+* **3-Qubit Bit-Flip Code:** Implemented syndrome measurement and Toffoli-based recovery for stochastic X-axis noise.
+
+## Advanced QML & Optimization
+* **Quantum GAN:** Orchestrated a generative adversarial competition between circuits for synthetic state generation and Nash Equilibrium discovery.
+* **Adaptive Optimization:** Integrated **ADAM** and **Momentum-based** second-order stochastic gradient descent to stabilize training on noisy NISQ simulators.
+* **Autonomous Clustering:** Built an unsupervised system to group data points using quantum similarity thresholds and Kernel Estimation.
+* **Quantum Variational Classifier:** Developed a North/South pole classification boundary in Hilbert Space.
+
 ## Core Quantum Foundations
 * **Bell State Entanglement:** Verified non-local correlations on local Aer Simulator.
 * **Quantum Teleportation:** Implemented state transfer protocol via shared entanglement.
-* **Error Correction:** Built bit-flip syndrome detection and Toffoli-based recovery.
 * **Grover's Algorithm:** Demonstrated 100% probability amplification for unstructured search.
 
-## Advanced QML & Optimization
-* **Quantum Variational Classifier:** Developed a North/South pole classification boundary.
-* **Quantum Kernel Estimation:** Implemented a Swap Test to measure state similarity/overlap via Hilbert Space interference.
-* **Autonomous Clustering:** Built an unsupervised system to group data points using quantum similarity thresholds.
-* **Adaptive Optimization:** Integrated **ADAM** and **Momentum-based** stochastic gradient descent for noisy training environments.
-* **Quantum GAN:** Orchestrated a generative adversarial competition between two circuits to synthesize quantum states.
-
 ## Hardware & Research Environment
-* **System:** Ubuntu 22.04 (Dell Inspiron 15)
+* **System:** Ubuntu 24.04 (Dell Inspiron 15)
 * **Framework:** Qiskit with AerSimulator (Simulating up to 21-qubit registers)
 * **Performance:** Level 3 Transpilation and Gate-Folding for ISA mapping.
 * **Goal:** Bachelor's in CS+Physics (UIUC) -> PhD in Quantum Science & Engineering (UChicago) -> Argonne National Laboratory.
 
 ## Research Objectives
-Building the foundation for fault-tolerant QAI and noise-resilient neural networks.
+Building the foundation for fault-tolerant QAI and noise-resilient neural networks in high-dimensional state spaces.
