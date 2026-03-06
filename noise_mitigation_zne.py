@@ -1,5 +1,5 @@
 """
-Research Project: Zero-Noise Extrapolation (ZNE)
+Research Project: Zero-Noise Extrapolation (ZNE) - Fixed
 Researcher: Dylan Cabrera Giler
 Objective: Implementing error mitigation to recover ideal expectation values 
 from noisy NISQ-era hardware simulations.
@@ -16,8 +16,15 @@ def get_noisy_result(circuit, noise_factor):
     error = depolarizing_error(0.01 * noise_factor, 1)
     noise_model.add_all_qubit_quantum_error(error, ['u1', 'u2', 'u3'])
     
+    # NEW: Measurement must be explicit to generate counts
+    circuit_to_run = circuit.copy()
+    circuit_to_run.measure_all()
+    
     sim = AerSimulator(noise_model=noise_model)
-    result = sim.run(transpile(circuit, sim), shots=2048).result().get_counts()
+    # Transpile and run the circuit with measurements
+    result = sim.run(transpile(circuit_to_run, sim), shots=2048).result().get_counts()
+    
+    # Return probability of state '0'
     return result.get('0', 0) / 2048
 
 # Simple Circuit: H-gate to create superposition
@@ -30,7 +37,6 @@ scales = [1, 2, 3]
 results = [get_noisy_result(qc, s) for s in scales]
 
 # Linear Extrapolation to noise=0
-# y = mx + c -> c is the value at x=0
 m, c = np.polyfit(scales, results, 1)
 
 print(f"--- Zero-Noise Extrapolation (ZNE) Results ---")
