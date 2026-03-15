@@ -2,7 +2,7 @@
 **Researcher:** Dylan C. Giler  
 **Focus:** Quantum Information Science, QAI/QML, & Physics-integrated Computing
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dylan-c-giler/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dylan-cabrera-giler-96306b370)
 
 ---
 
